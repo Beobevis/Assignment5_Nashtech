@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pc Market\\Desktop\\Nashtech\\Assignment5\\Assignment5.csproj",
+      "projectUniqueName": "c:\\Users\\Pc Market\\Desktop\\Nashtech\\Assignment5_Nashtech\\Assignment5.csproj",
       "projectName": "Assignment5",
-      "projectPath": "C:\\Users\\Pc Market\\Desktop\\Nashtech\\Assignment5\\Assignment5.csproj",
+      "projectPath": "c:\\Users\\Pc Market\\Desktop\\Nashtech\\Assignment5_Nashtech\\Assignment5.csproj",
       "packagesPath": "C:\\Users\\Pc Market\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pc Market\\Desktop\\Nashtech\\Assignment5\\obj\\",
+      "outputPath": "c:\\Users\\Pc Market\\Desktop\\Nashtech\\Assignment5_Nashtech\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\SDKs\\NuGetPackages"

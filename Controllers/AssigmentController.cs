@@ -96,6 +96,10 @@ public class AssignmentController : Controller
     // [Route("Assignment/Malemembers")]
     // [Route("Assignment/male-members")]
     //[Route("Nashtech/Assignment/malemembers")]
+    public IActionResult GetMembers(){
+        var result = from person in persons select person;
+        return new ObjectResult(result);
+    }
     public IActionResult GetMalesMember()
     {
         var result = persons.Where(m => m.Gender.Equals("Male", StringComparison.CurrentCultureIgnoreCase)).ToList();

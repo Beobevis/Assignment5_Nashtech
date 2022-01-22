@@ -22,12 +22,12 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "Nashtech/{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
-name: "default2",
-pattern: "Nashtech/{controller=Assignment}/{action=Index}/{id?}");
-// app.MapControllerRoute(
-// name: "export",
-// pattern: "Nashtech/{controller=Assignment}/{action=ExportFile}/{id?}");
+name: "privarcy",
+pattern: "Nashtech/{controller=Home}/{action=Privacy}/{id?}");
+app.MapControllerRoute(
+name: "getmembers",
+pattern: "Nashtech/{controller=Assignment}/{action=GetMembers}/{id?}");
 
 app.Run();
